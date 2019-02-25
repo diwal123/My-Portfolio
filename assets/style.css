@@ -1,0 +1,511 @@
+.gallery {
+  position: relative;
+  width: 50%;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  border: 10px solid transparent;
+  
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color:  #dbdbdb;
+  margin: auto;
+  border: .5px solid black;
+  box-shadow: 5px 10px;
+  padding: 20px;
+}
+
+.gallery:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: teal;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  text-align: center;
+  margin: 80px;
+  margin-top: 0px;
+  background-color: #ececec;
+  height:auto;
+  min-height: 580px;
+  padding: 20px;
+}
+
+.portfolioButton1, .portfolioButton2 {
+  position: relative;
+  bottom: -90%;
+  margin-right: 10px;
+  margin-left: 20px;
+  border: .5px solid #e31c6e;
+  border-radius: 25px;
+}
+
+.portfolioButton1{
+  float: left;
+}
+.portfolioButton2{
+  float: right;
+}
+ 
+.portfolioButton1:hover, .portfolioButton2:hover, #resumeButton:hover{
+  border: 1.5px solid #e31c6e;
+  border-radius: 25px;
+  font-weight: bold;
+}
+#resumeButton{
+  border-radius: 25px;
+  border: .5px solid #e31c6e;
+  color: #1b242f;
+  box-shadow: 5px 10px;
+  
+  
+}
+.description{
+  position: absolute;
+  top: 30%;
+}
+
+#projectHeader{
+  height: 70px;
+  margin: 30px auto;
+  padding: 10px;
+  font-size: 40px;
+}
+
+
+.container{
+  background:#1b242f; 
+  color: #ffffff;
+  height: 50px;
+}
+
+.navbar{
+  border-bottom: 5px solid teal;
+  padding: 0px;
+}
+
+.navbar-light .navbar-brand{
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #ffffff;
+}
+
+
+
+#technologyTab{
+  margin-right: 250px;
+  margin-left: 250px;
+  
+  height: 50px;
+  padding: 10px;
+
+}
+
+
+#all{
+  background-color: #e31c6e;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0px;
+ margin: 0px;
+ font-weight: bold;
+}
+
+#javaScript{
+  
+  color: #1b242f; 
+  font-size: 20px;
+  padding: 0px;
+ margin: 0px;
+ font-weight: bold;
+}
+
+#jQuery{
+  
+  color:#1b242f; 
+  font-size: 20px;
+  padding: 0px;
+ margin: 0px;
+ font-weight: bold;
+}
+
+#nodeJs{
+  
+  color:#1b242f; 
+  font-size: 20px;
+  padding: 0px;
+ margin: 0px;
+ font-weight: bold;
+}
+
+#javaScript:hover, #all:hover, #jQuery:hover, #nodeJs:hover{
+  cursor: pointer;
+
+}
+
+#indexContainer{
+  background-color: #1b242f; 
+  height:100vh;
+  text-align: center;
+  
+}
+.indexContent{
+  color: #ffffff;
+}
+
+#intro{
+  margin: auto auto;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-size: 30px;
+}
+
+#name{
+  color:  #e31c6e;
+  
+  font-weight: bold;
+  font-stretch: expanded;
+}
+
+#myWork{
+  background-color: #1b242f;
+  border: 2px solid teal;
+  padding: 5px;
+ 
+  height: 45px;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+#myWork:hover{
+  background-color: #0f141a;
+  padding: 8px;
+  height: 50px;
+  border: 2px solid rgb(3, 141, 141);
+  
+}
+
+.container {
+  max-width: 100%;
+}
+
+#myImage{
+  width: 160px;
+  height: 160px;
+  
+  margin: auto auto;
+}
+
+.footer{
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color:  #13171b;
+  border-top: 4px solid teal;
+
+}
+
+.text-muted{
+  color: #ffffff;
+  padding-top: 5px;
+  
+}
+
+#contactMe{
+  text-align: left;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color:#e31c6e;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  /*transform: rotate(-20deg);*/
+ 
+ 
+
+}
+.navbar-light .navbar-brand:hover {
+  color: #e31c6e;
+}
+
+a:link {
+  text-decoration: none;
+  
+}
+.links{
+  color:  #e31c6e;
+  border: 2x solid red;
+
+}
+
+.links:hover{
+  font-weight: bold;
+  color: #e31c6e;
+  
+}
+
+.card{
+  margin: auto auto;
+  background-color:  #ececec;
+  box-shadow: 5px 10px;
+}
+.card-link{
+  border: .5px solid #e31c6e;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.card-link:hover{
+  border: 1px solid #e31c6e;
+  font-weight: bold;
+  padding: 7px;
+}
+hr{
+  background-color: teal;
+  border: 1px solid teal;
+}
+
+.tracking-in-contract-bck-bottom{-webkit-animation:tracking-in-contract-bck-bottom 1s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract-bck-bottom 1s cubic-bezier(.215,.61,.355,1.000) both}
+@-webkit-keyframes tracking-in-contract-bck-bottom{0%{letter-spacing:1em;-webkit-transform:translateZ(400px) translateY(300px);transform:translateZ(400px) translateY(300px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}@keyframes tracking-in-contract-bck-bottom{0%{letter-spacing:1em;-webkit-transform:translateZ(400px) translateY(300px);transform:translateZ(400px) translateY(300px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}
+::-webkit-scrollbar {
+  width: 0px;  
+  background: transparent; 
+}
+
+
+@media only screen and (max-width:980px) {
+  
+  .navbar-light .navbar-nav .nav-link{
+    display: inline-block;
+    padding: 1px;
+    position: relative;
+
+  }
+
+  .navbar-nav{
+    padding: 10px;
+    display: inline-block;
+    margin: auto auto;
+  }
+
+  .abc{
+    margin: auto auto;
+    padding-bottom: 30px;
+  }
+  .nav-link{
+    margin-left: 5px;
+  }
+
+  .navbar-nav{
+    padding: 10px;
+    display: inline-block;
+    margin: auto auto;
+  }
+  #technologyTab{
+    margin: 0;
+    
+    height: 50px;
+    padding: 10px;
+  
+  }
+
+  .text{
+    font-size: 20px;
+  }
+  
+.description{
+  top: 20%;
+  line-height: 150%;
+}
+  
+  li{
+    display: inline;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .navbar-nav{
+    padding: 1px;
+    display: inline-block;
+    margin: auto auto;
+  }
+
+  .abc{
+    margin: auto auto;
+    padding-bottom: 30px;
+  }
+  .nav-link{
+    margin-left: 5px;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+  #technologyTab{
+    margin: 0;
+    
+    height: 50px;
+    padding: 10px;
+  
+  }
+
+  .text{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  .portfolioButton1, .portfolioButton2{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .description{
+    line-height: 100%;
+    margin: 0;
+    top: 20%;
+  }
+
+  
+}
+
+@media only screen and (max-width: 640px){
+  
+ 
+  .navbar-nav{
+    padding: 1px;
+    display: inline-block;
+    margin: auto auto;
+  }
+
+  .abc{
+    margin: auto auto;
+    padding-bottom: 30px;
+  }
+
+  .nav-link{
+    margin-left: 5px;
+  }
+
+  .navbar-light, .navbar-brand{
+    margin: 0px;
+    padding: 0px;
+
+   margin-bottom: 10px;
+    
+  }
+  .card{
+    margin-right: 50px;
+    width: 50%;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  .card-link{
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 0;
+  }
+  .card-link:hover{
+    border: .5px solid #e31c6e;
+    padding: 1px;
+    border-radius: 25px;
+  }
+
+  #technologyTab{
+    margin: 0;
+    
+    height: 50px;
+    padding: 10px;
+  
+  }
+
+ 
+  .text {
+    color: teal;
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    
+  }
+
+  .description{
+    font-size: 15px;
+    top: 16%;
+    overflow: hidden;
+    line-height: 100%;
+  }
+  
+  .portfolioButton1, .portfolioButton2{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .portfolioButton1:hover, .portfolioButton2:hover, #resumeButton:hover{
+    border: .5px solid #e31c6e;
+    
+    margin: 0;
+    padding: 0;
+  }
+
+  .overlay{
+    height: auto;
+    overflow: hidden;
+  
+  }
+ 
+}
