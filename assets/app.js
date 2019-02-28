@@ -1,8 +1,8 @@
 project1 = {
   projectName: "Crystal Game",
   projectImage: "assets/Image/CrystalGame.JPG",
-  projectLink: "https://diwal123.github.io/Crystal--Games/",
-  projectGitLink: "https://github.com/diwal123/Crystal--Games",
+  projectLink: "https://diwal123.github.io/CrystalCollector/",
+  projectGitLink: "https://github.com/diwal123/CrystalCollector.git",
   projectDescription:
     "Crystal Game is a simple game of collecting random points and matching to a random target score. The game is entirely based on javascript and the codes are minimal."
 };
@@ -28,7 +28,7 @@ project3 = {
 project4 = {
   projectName: "musicSurfer",
   projectImage: "assets/Image/musicSurfer.JPG",
-  projectLink: "https://github.com/felixvl31/musicSurfer.git",
+  projectLink: "https://www.felixvl.com/musicSurfer/",
   projectGitLink: "https://github.com/felixvl31/musicSurfer.git",
   projectDescription:
     "musicSurfer queries data using a singular search term, then parses and combines that data into a list where you can quickly find the particular song; from there, find further information about the track like lyrics, as well as a preview of the song or video. This application uses partics.js, itunes API and musixmatch API."
