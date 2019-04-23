@@ -34,6 +34,39 @@ project4 = {
     "musicSurfer queries data using a singular search term, then parses and combines that data into a list where you can quickly find the particular song; from there, find further information about the track like lyrics, as well as a preview of the song or video. This application uses partics.js, itunes API and musixmatch API."
 };
 
+
+project5 = {
+  projectName: "Bamzon",
+  projectImage: "assets/Image/askCustomer.JPG",
+  projectLink: "https://github.com/diwal123/bamazon.git",
+  projectGitLink: "https://github.com/diwal123/bamazon.git",
+  projectDescription:
+    "The bamzon app is the clone version of Amazon database app. This is a simple version, where a customer can look for the item and give instruction to buy the product. The app also provides room for manager and supervisor. The manager can view the product as customer and can also the lower level of inventory and add inventory. Beside that, manager can add a new product as well. The scope for supervisor is limited to getting data for sales, cost and profit and add a new department."
+};
+
+
+project6 = {
+  projectName: "Friend Finder",
+  projectImage: "assets/Image/friendFinder.JPG",
+  projectLink: "https://stormy-meadow-27466.herokuapp.com/",
+  projectGitLink: "https://github.com/diwal123/FriendFinder.git",
+  projectDescription:
+    "In this application, I build a app which finds the best compatible friends. This application takes user input and based on those data, a compatible friend is searched and displayed."
+};
+
+project7 = {
+  projectName: "Liri",
+  projectImage: "assets/Image/liri.JPG",
+  projectLink: "https://github.com/diwal123/Liri.git",
+  projectGitLink: "https://github.com/diwal123/Liri.git",
+  projectDescription:
+    "The Liri app will capture the input from the command line and will look into OMDB API or Spotify API or BandinTown API and will display the output."
+};
+
+
+
+
+
 function createPortfolio(
   projectName,
   projectImage,
@@ -131,6 +164,33 @@ $("#all").on("click", function(e) {
     project4.projectDescription
   );
 
+  createPortfolio(
+    project5.projectName,
+    project5.projectImage,
+    project5.projectLink,
+    project5.projectGitLink,
+    project5.projectDescription
+  );
+
+  createPortfolio(
+    project6.projectName,
+    project6.projectImage,
+    project6.projectLink,
+    project6.projectGitLink,
+    project6.projectDescription
+  );
+
+  createPortfolio(
+    project7.projectName,
+    project7.projectImage,
+    project7.projectLink,
+    project7.projectGitLink,
+    project7.projectDescription
+  );
+
+
+
+
   console.log($(".gallery").length);
 });
 
@@ -186,6 +246,65 @@ $("#nodeJs").on("click", function(e) {
   techTab();
   $(this).css("background-color", "#e31c6e");
   $(this).css("color", "#ffffff");
+
+  createPortfolio(
+    project5.projectName,
+    project5.projectImage,
+    project5.projectLink,
+    project5.projectGitLink,
+    project5.projectDescription
+  );
+  createPortfolio(
+    project6.projectName,
+    project6.projectImage,
+    project6.projectLink,
+    project6.projectGitLink,
+    project6.projectDescription
+  );
+  
+  
+  createPortfolio(
+    project7.projectName,
+    project7.projectImage,
+    project7.projectLink,
+    project7.projectGitLink,
+    project7.projectDescription
+  );
+});
+
+
+$("#sql").on("click", function(e) {
+  e.preventDefault();
+  $("#portfolio").empty();
+  techTab();
+  $(this).css("background-color", "#e31c6e");
+  $(this).css("color", "#ffffff");
+
+  createPortfolio(
+    project5.projectName,
+    project5.projectImage,
+    project5.projectLink,
+    project5.projectGitLink,
+    project5.projectDescription
+  );
+  createPortfolio(
+    project7.projectName,
+    project7.projectImage,
+    project7.projectLink,
+    project7.projectGitLink,
+    project7.projectDescription
+  );
+  
+  
+  
+});
+
+$("#mongo").on("click", function(e) {
+  e.preventDefault();
+  $("#portfolio").empty();
+  techTab();
+  $(this).css("background-color", "#e31c6e");
+  $(this).css("color", "#ffffff");
 });
 
 createPortfolio(
@@ -217,6 +336,31 @@ createPortfolio(
   project4.projectDescription
 );
 
+createPortfolio(
+  project5.projectName,
+  project5.projectImage,
+  project5.projectLink,
+  project5.projectGitLink,
+  project5.projectDescription
+);
+createPortfolio(
+  project6.projectName,
+  project6.projectImage,
+  project6.projectLink,
+  project6.projectGitLink,
+  project6.projectDescription
+);
+
+
+createPortfolio(
+  project7.projectName,
+  project7.projectImage,
+  project7.projectLink,
+  project7.projectGitLink,
+  project7.projectDescription
+);
+
+
 function techTab() {
   $("#all").css("background-color", " #ececec");
   $("#all").css("color", "#1b242f");
@@ -229,4 +373,14 @@ function techTab() {
 
   $("#nodeJs").css("background-color", " #ececec");
   $("#nodeJs").css("color", "#1b242f");
+
+  $("#mongo").css("background-color", " #ececec");
+  $("#mongo").css("color", "#1b242f");
+
+  $("#sql").css("background-color", " #ececec");
+  $("#sql").css("color", "#1b242f");
 }
+
+
+
+
