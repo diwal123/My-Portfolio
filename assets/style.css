@@ -9,6 +9,10 @@
 
 }
 
+#wrapper{
+  z-index: +100000;
+}
+
 .image {
   display: block;
   width: 100%;
@@ -99,13 +103,24 @@
 
 #projectHeader{
   height: 70px;
-  margin: 5px auto;
-  padding: 10px;
   font-size: 40px;
   font-weight: bold;
   color: #1b242f;
+  position: absolute;
+  z-index: 1000;
+  left: 43%;
+  display: inline-block;
+  margin-bottom: 20px;
+  clear: both;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 60px;
+
 }
 
+#logo{
+  z-index: 20000000;
+}
 
 .container{
   background:#1b242f; 
@@ -133,6 +148,11 @@
   height: 50px;
   padding: 10px;
 
+}
+
+#aboutMe{
+  margin-top: 90px;;
+  display: inline-block;
 }
 
 
@@ -249,6 +269,7 @@
 
 #contactMe{
   text-align: left;
+  margin-top: 90px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color:#e31c6e;
@@ -314,6 +335,55 @@ h6{
   color: #0f141a;
   font-weight: bold;
   
+}
+
+
+.row{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#portfolioRow{
+  position: relative;
+  margin-top: 70px;
+  z-index: -1;
+  clear: both
+  
+}
+
+#projectTitle {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+}
+#projectDescription{
+  margin-top: 20px;
+  font-weight: 500;
+}
+#projectTech{
+  margin-top: 20px;
+  color: grey;
+  font-weight: 600;
+  margin-bottom: 40px
+}
+
+a{
+  z-index: -100000000;
+}
+
+#appLink, #gitLink{
+  margin: 80px;
+  padding: 5px 30px 5px 30px; 
+   border: 2px solid rgb(151, 151, 151);
+   color: black;
+   height: 20px;
+   border-radius: 25px;
+  
+}
+
+#appLink:hover, #gitLink:hover{
+  color: white;
+  background-color: black;
+  border: 2px solid transparent;
 }
 
 
