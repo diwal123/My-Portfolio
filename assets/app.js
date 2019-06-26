@@ -37,7 +37,7 @@ project5 = {
 project3 = {
   projectName: "musicSurfer",
   projectImage: "assets/Image/musicSurfer.JPG",
-  projectLink: "https://www.felixvl.com/musicSurfer/",
+  projectLink: "https://felixvl31.github.io/musicSurfer/",
   projectGitLink: "https://github.com/felixvl31/musicSurfer.git",
   projectDescription:
     "musicSurfer queries data using a singular search term, then parses and combines that data into a list where you can quickly find the particular song; from there, find further information about the track like lyrics, as well as a preview of the song or video.",
@@ -81,7 +81,7 @@ project9 = {
 project1 = {
   projectName: "Slello",
   projectImage: "assets/Image/slello.JPG",
-  projectLink: "https://floating-hollows-85289.herokuapp.com/chat",
+  projectLink: "https://floating-hollows-85289.herokuapp.com",
   projectGitLink: "https://github.com/travishill1/project-3",
   projectDescription:
     "The slello app in the chat application with the Kanban board feature. It combines chat application with project management feature",
